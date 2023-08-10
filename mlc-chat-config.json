@@ -1,0 +1,17 @@
+{
+    "model_lib": "WizardLM-70B-V1.0-q4f16_1",
+    "local_id": "WizardLM-70B-V1.0-q4f16_1",
+    "conv_template": "wizardlm",
+    "temperature": 0.7,
+    "repetition_penalty": 1.0,
+    "top_p": 0.95,
+    "mean_gen_len": 128,
+    "max_gen_len": 512,
+    "shift_fill_factor": 0.3,
+    "tokenizer_files": [
+        "added_tokens.json",
+        "tokenizer.model"
+    ],
+    "model_category": "llama",
+    "model_name": "WizardLM-70B-V1.0"
+}
